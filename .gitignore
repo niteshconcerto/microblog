@@ -16,6 +16,10 @@ __pycache__/
 # C extensions
 *.so
 
+
+# SQL lite file
+.db
+
 # Distribution / packaging
 .Python
 build/
