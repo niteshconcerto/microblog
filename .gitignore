@@ -18,7 +18,8 @@ __pycache__/
 
 
 # SQL lite file
-.db
+app.db
+*.db
 
 # Distribution / packaging
 .Python
