@@ -10,5 +10,5 @@ class Config(object):
     MAIL_USE_TLS = None
     MAIL_USERNAME = os.environ.get('MAIL_USERNAME')
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
-    ADMINS = []
+    ADMINS = ['demo.notify@concertosoft.com']
     POSTS_PER_PAGE = 5
