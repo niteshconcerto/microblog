@@ -8,6 +8,7 @@ from logging.handlers import SMTPHandler , RotatingFileHandler
 from flask_mail import Mail
 import os
 from flask_bootstrap import Bootstrap
+from flask_moment import Moment
 
 app = Flask(__name__)
 
@@ -24,6 +25,8 @@ migrate  = Migrate(app,db)
 mail = Mail(app)
 
 bootstrap = Bootstrap(app)
+
+moment = Moment(app)
 
 from app import routes , models, errors
 
